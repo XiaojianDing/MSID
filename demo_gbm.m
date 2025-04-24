@@ -44,8 +44,7 @@ for run_idx = 1:10
 
             %% Parameter Grid
             r1 = 0.1:0.2:1;
-            % r2 = (0.1:0.1:0.9) * num_kernel;
-            r2 =  16;
+            r2 = (0.1:0.1:0.9) * num_kernel;
             r3 = 0.1:0.2:1;
             r4 = 0.1:0.2:1;
             num_best = 1;  % number of top results to keep
